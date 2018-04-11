@@ -1,0 +1,197 @@
+{
+  "survey_properties": {
+    "intro_message": "<strong>Pesquisa Numero 123 </strong>",
+    "end_message": "Muito Obrigado.",
+    "skip_intro": false
+  },
+  "questions": [
+    {
+      "question_type": "String",
+      "question_title": "Origem : Qual Estado o Sr. esta vindo ?",
+      "description": "",
+      "required": true
+    },
+    {
+      "question_type": "String",
+      "question_title": "Origem : Qual Municipio o Sr. esta vindo ?",
+      "description": "",
+      "required": true
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "Este Local de onde Sr esta vindo , que tipo e?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "Residencia",
+        "Estudo",
+        "Negocios",
+        "Lazer",
+        "Trabalho",
+        "Servico",
+        "Turismo",
+        "Comercio",
+        "Outros"
+      ]
+    },
+    {
+      "question_type": "String",
+      "question_title": "Destino : Qual Estado o Sr. esta vindo ?",
+      "description": "",
+      "required": true
+    },
+    {
+      "question_type": "String",
+      "question_title": "Destino : Qual Municipio o Sr. esta vindo ?",
+      "description": "",
+      "required": true
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "Este Local de onde Sr esta vindo , que tipo e?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "Residencia",
+        "Estudo",
+        "Negocios",
+        "Lazer",
+        "Trabalho",
+        "Servico",
+        "Turismo",
+        "Comercio",
+        "Outros"
+      ]
+    },
+    {
+      "question_type": "String",
+      "question_title": "Com qual frequencia , o sr realiza esta viagem entre dois localidades ?",
+      "description": "",
+      "required": true
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "Com qual frequencia , o sr realiza esta viagem entre dois localidades ?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "Dia",
+        "Semana",
+        "Mes",
+        "Ano",
+        "Eventual",
+        "Uma Vez"
+
+      ]
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "Neste viagem , o Sr passou ou vai passar por alguma praca de pedagia?",
+      "description": "",
+      "required": true,
+      "random_choices": true,
+      "choices": [
+        "<font color='#880000'>Sim</font>",
+        "<font color='#008800'>Nao</font>"
+
+      ]
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "Quem paga os tarifas de pedagio?",
+      "description": "",
+      "required": true,
+      "random_choices": true,
+      "choices": [
+        "<font color='#880000'>Condutor</font>",
+        "<font color='#008800'>Ocupantes</font>",
+        "<font color='#008800'>Empregador</font>"
+
+      ]
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "Quantos pessoas esta realizando esta viagem com Sr ?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "8+"
+      ]
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "Quem e proprietario deste veiculo?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "Condutor",
+        "Familia",
+        "Empregador",
+        "Alugado",
+        "Outros"
+
+      ]
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "Quem esta pagando os despecas de viagem?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "Condutor",
+        "Familia",
+        "Empregador",
+        "Outros"
+
+      ]
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "O sr possui dispositivo tipo sem parar / vida facil em seu veiculo?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "Sim",
+        "Nao"
+
+      ]
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "Qual e renda familiar mensal do Sr?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+
+      ]
+    },
+    {
+      "question_type": "StringMultiline",
+      "question_title": "Voce tem alguma coisa mais pra falar ?",
+      "description": "Requests, problems etc.",
+      "required": false,
+      "number_of_lines": 4
+    }
+  ]
+}

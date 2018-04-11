@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent i_survey = new Intent(MainActivity.this, SurveyActivity.class);
                 //you have to pass as an extra the json string.
-                i_survey.putExtra("json_survey", loadSurveyJson("example_survey_1.json"));
+                i_survey.putExtra("json_survey", loadSurveyJson("pesquisa.json"));
                 startActivityForResult(i_survey, SURVEY_REQUEST);
             }
         });
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i_survey = new Intent(MainActivity.this, SurveyActivity.class);
-                i_survey.putExtra("json_survey", loadSurveyJson("example_survey_2.json"));
+                i_survey.putExtra("json_survey", loadSurveyJson("pesquisa.json"));
                 startActivityForResult(i_survey, SURVEY_REQUEST);
             }
         });
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i_survey = new Intent(MainActivity.this, SurveyActivity.class);
-                i_survey.putExtra("json_survey", loadSurveyJson("example_survey_3.json"));
+                i_survey.putExtra("json_survey", loadSurveyJson("pesquisa.json"));
                 startActivityForResult(i_survey, SURVEY_REQUEST);
             }
         });
